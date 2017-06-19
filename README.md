@@ -5,6 +5,7 @@
 ## Hi there! Welcome to Bottega Devcamp
 
 ### Instructions to enter into the bash shell
+content some random stuff
 
 To startup the Postgres database, the command is:
 
