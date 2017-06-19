@@ -5,39 +5,19 @@
 ## Hi there! Welcome to Bottega Devcamp
 
 ### Instructions to enter into the bash shell
-content some random stuff
-
-To startup the Postgres database, the command is:
-
+  > This is a Ruby on Rails 5 application that allows users to create their own portfolios.
+  ### Features
+  
+  - Real time chat engine for comments
+  - Blog
+  - Portfolio
+  - Drag and drop interface
+  ### Code Example
+  ```ruby
+def my_great_method
+  puts "here it is"
+end
 ```
-sudo service postgresql start
+```javascript
+alert('Hi there')
 ```
-
-To generate a new rails application, the command is:
-
-```
-rails new AppName -T --database=postgresql
-```
-
-Change into the app:
-
-```
-cd AppName
-```
-
-Create and migrate the database:
-
-```
-rails db:create && rails db:migrate
-```
-
-To run the Rails server on C9, the command is:
-
-```
-rails s -b $IP -p $PORT
-```
-
-For more information on how to use Cloud9, visit http://docs.c9.io for our documentation. If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Good luck with the coding!
