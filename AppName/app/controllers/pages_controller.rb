@@ -9,4 +9,8 @@ class PagesController < ApplicationController
 
   def contact
   end
+  def new
+    @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle, :body, technologies_attributes: [:name]))
+    3.times { @portfolio_item.technologies.build}
+  end
 end
