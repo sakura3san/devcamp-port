@@ -50,10 +50,11 @@ ActiveRecord::Schema.define(version: 20170629145450) do
   end
 
   create_table "skills", force: :cascade do |t|
-    t.string   "title"
-    t.integer  "percent_utilized"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.string   "titlestring"
+    t.string   "percent"
+    t.integer  "utilized"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.text     "badge"
   end
 
