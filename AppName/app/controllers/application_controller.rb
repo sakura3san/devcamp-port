@@ -4,9 +4,8 @@
     include SetSource
     include CurrentUserConcern
     include DefaultPageContent
-
-
     
-
-  
+    before_action :set_copyright
   end
+
+
