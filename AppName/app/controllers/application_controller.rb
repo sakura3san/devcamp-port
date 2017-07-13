@@ -5,9 +5,3 @@
     include CurrentUserConcern
     include DefaultPageContent
   end
-
-<<<<<<< HEAD
-
-=======
-  end
->>>>>>> rubygem
