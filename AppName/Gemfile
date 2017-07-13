@@ -56,4 +56,4 @@ gem 'friendly_id', '~>5.1.0'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'devcamp_view_tool_bernardi', git: 'https://github.com/sakura3san/devcamp_view_tool_bernardi'
+gem 'devcamp_view_tool_bernardi', '~> 0.1.0'

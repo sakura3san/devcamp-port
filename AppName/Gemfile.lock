@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/sakura3san/view_tool_devcamp
-  revision: a48bfde044b0daf2b8ae399b3ff9f21eb9a271f3
-  specs:
-    view_tool_devcamp (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,6 +57,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    devcamp_view_tool_bernardi (0.1.0)
     devise (4.3.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -192,6 +187,7 @@ DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
+  devcamp_view_tool_bernardi (~> 0.1.0)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
@@ -207,7 +203,6 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
-  view_tool_devcamp!
   web-console (>= 3.3.0)
 
 BUNDLED WITH
