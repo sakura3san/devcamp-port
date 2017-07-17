@@ -9,4 +9,8 @@ class Blog < ApplicationRecord
    all
   end
   
+  def self.featured_blogs
+    limit(2)
+  end
+  
 end
