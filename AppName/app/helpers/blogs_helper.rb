@@ -11,7 +11,6 @@ module BlogsHelper
 
   def markdown(text)
     coderayified = CodeRayify.new(filter_html: true, hard_wrap: true)
-
     options = {
       fenced_code_blocks: true,
       no_intra_emphasis: true,
@@ -28,4 +27,5 @@ module BlogsHelper
       'color: red;'
     end
   end
+
 end
